@@ -1,0 +1,74 @@
+.container {
+border:2px solid blue;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 100px auto auto;
+}
+.header {
+  
+    border: 2px solid green;
+    background-color: green;
+    grid-column: 1 / span all;
+}
+.mylibrary{
+    border: 2px solid red;
+    grid-column:1 / span 3;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 100px 100px ;
+    gap:20px;
+
+   background-color: blueviolet;
+ 
+}
+
+.cards {
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 20px;
+}
+.newbook {
+    border: 2px solid yellowgreen;
+   grid-column: 4 / span all;
+   
+   background-color: aqua
+   ;
+}
+.newbook button {
+    margin-left: 0%;
+}
+.book-form {
+    display:none;
+    background-color: aliceblue;
+    width: 200px;
+    margin: 0 auto;
+    z-index: 2;
+}
+.btn-container {
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+}
+.cancel {
+    width: 70px;
+    height: 20px;
+border: none;
+    margin-top: 20px;
+    background-color: RED;
+}
+
+
+.add {
+background-color: green;
+width: 70px;
+
+height: 20px;
+border: none;
+}
+a {
+    cursor: pointer;
+}
+label {
+    display: block;
+}
