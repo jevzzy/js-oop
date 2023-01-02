@@ -14,8 +14,7 @@ grid-template-rows: 100px auto auto;
     border: 2px solid red;
     grid-column:1 / span 3;
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-columns: 100px 100px ;
+    grid-template-columns: 1fr 1fr 1fr;
     gap:20px;
 
    background-color: blueviolet;
