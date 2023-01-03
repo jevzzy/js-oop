@@ -24,7 +24,8 @@ grid-template-rows: 100px auto auto;
 .cards {
     border: 2px solid blue;
     background-color: white;
-    border-radius: 20px;
+
+    height: 150px;
 }
 .newbook {
     border: 2px solid yellowgreen;
@@ -45,15 +46,13 @@ grid-template-rows: 100px auto auto;
 }
 .btn-container {
     display:flex ;
-    justify-content: space-between;
-    align-items: center;
+   justify-content: space-evenly;
     border: 2px solid;
 }
 .cancel {
     width: 70px;
     height: 20px;
 border: none;
-    margin-top: 20px;
     background-color: RED;
 }
 
