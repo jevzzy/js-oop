@@ -15,17 +15,21 @@ grid-template-rows: 100px auto auto;
     grid-column:1 / span 3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap:20px;
+    gap:10px;
 
    background-color: blueviolet;
  
 }
 
 .cards {
-    border: 2px solid blue;
-    background-color: white;
 
-    height: 150px;
+    background-color: white;
+    text-align: center;
+    height: 200px;
+}
+
+.cards button {
+    margin-left: 20px;
 }
 .newbook {
     border: 2px solid yellowgreen;

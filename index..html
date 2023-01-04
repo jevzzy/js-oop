@@ -21,9 +21,9 @@
 
     <button class="new">Add a book</button>
     <form class="book-form">
-        <label for="">Title:<input placeholder="Title"  id="title" type="text"></label>
-        <label for=""> Author:<input placeholder="Author" id="author" type="text"></label>
-        <label for="">pages:<input placeholder="page" id="page"
+        <label for="title">Title:<input required minlength="5"    placeholder="Title"  id="title" type="text"></label>
+        <label for="author"> Author:<input required minlength="3"     placeholder="Author" id="author" type="text"></label>
+        <label for="page">pages:<input required type="number" min="10" minlength="2"  placeholder="page" id="page"
             type="text"></label>
             <div class="btn-container">
                 <button class="cancel"><a>x</a></button>
